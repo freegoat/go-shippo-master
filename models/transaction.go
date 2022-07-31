@@ -16,7 +16,7 @@ type TransactionInput struct {
 
 // See https://goshippo.com/docs/reference#transactions
 type Transaction struct {
-	TransactionInput
+	//TransactionInput
 	CommonOutputFields
 	ObjectState          string           `json:"object_state,omitempty"`
 	Status               string           `json:"status,omitempty"`
@@ -30,4 +30,5 @@ type Transaction struct {
 	Messages             []*OutputMessage `json:"messages,omitempty"`
 	QRCodeURL            string           `json:"qr_code_url,omitempty"`
 	Async                bool             `json:"async"`
+	Rate                 Rate             `json:"rate"`
 }
