@@ -30,5 +30,5 @@ type Transaction struct {
 	Messages             []*OutputMessage `json:"messages,omitempty"`
 	QRCodeURL            string           `json:"qr_code_url,omitempty"`
 	Async                bool             `json:"async"`
-	Rate                 Rate             `json:"rate"`
+	Rate                 Rate             `json:"rate,omitempty"`
 }
