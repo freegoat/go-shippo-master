@@ -37,11 +37,8 @@ func (c *Client) RetrieveTransaction(objectID string) (*models.Transaction, erro
 		return nil, errors.New("empty object ID")
 	}
 
-	input := RetrieveTransactionInput{}
-	input.QRCodeRequested = true
-
 	output := &models.Transaction{}
-	err := c.do(http.MethodGet, "/transactions/"+objectID, input, output)
+	err := c.do(http.MethodGet, "/transactions/"+objectID, nil, output)
 	return output, err
 }
 
@@ -58,8 +55,4 @@ func (c *Client) ListAllTransactions() ([]*models.Transaction, error) {
 		return nil
 	})
 	return list, err
-}
-
-type RetrieveTransactionInput struct {
-	QRCodeRequested bool `json:"qr_code_requested"`
 }
