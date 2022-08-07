@@ -1,2 +1,4 @@
 github.com/coldbrewcloud/go-shippo v1.6.0 h1:i3a5zsxM3t+uvKvr9ORNHmKiZoeG9w1t5/zb7jb4cHE=
 github.com/coldbrewcloud/go-shippo v1.6.0/go.mod h1:URSxayrGQYT3v2mwUkOawH7LSc94RNp0836ytgpGryE=
+github.com/freegoat/go-shippo-master v1.0.5 h1:CAXOJEoe7dVgrpanPaURqkRCwaZQQ6MF5ZYZ1V13lrQ=
+github.com/freegoat/go-shippo-master v1.0.5/go.mod h1:5g5TqHmIkWFzeeJijpfOviC6lXepGXEIMxN/s1uHRCU=

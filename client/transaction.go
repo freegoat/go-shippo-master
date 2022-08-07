@@ -5,8 +5,8 @@ import (
 	"errors"
 	"net/http"
 
-	//"github.com/coldbrewcloud/go-shippo/models"
-	"github.com/freegoat/go-shippo-master/models"
+	"github.com/coldbrewcloud/go-shippo/models"
+	//"github.com/freegoat/go-shippo-master/models"
 )
 
 // PurchaseShippingLabel creates a new transaction object and purchases the shipping label for the provided rate.
