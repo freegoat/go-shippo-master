@@ -22,7 +22,7 @@ func (c *Client) CreateAddress(input *models.AddressInput) (*models.Address, err
 // RetrieveAddress retrieves an existing address by object id.
 func (c *Client) RetrieveAddress(objectID string) (*models.Address, error) {
 	if objectID == "" {
-		return nil, errors.New("Empty object ID")
+		return nil, errors.New("empty object ID")
 	}
 
 	output := &models.Address{}
