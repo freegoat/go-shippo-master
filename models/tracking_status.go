@@ -26,7 +26,6 @@ type TrackingStatus struct {
 	ServiceLevel    *ServiceLevel           `json:"servicelevel,omitempty"`
 	TrackingStatus  *TrackingStatusDict     `json:"tracking_status,omitempty"`
 	TrackingHistory []*TrackingStatusDict   `json:"tracking_history,omitempty"`
-	Test string
 }
 
 type TrackingStatusDict struct {
