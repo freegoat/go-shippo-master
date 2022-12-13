@@ -66,6 +66,7 @@ type ShipmentExtra struct {
 	IsReturn                bool               `json:"is_return,omitempty"`
 	Reference1              string             `json:"reference_1,omitempty"`
 	Reference2              string             `json:"reference_2,omitempty"`
+	QRCodeRequested         bool               `json:"qr_code_requested,omitempty"`
 }
 
 type ShipmentCOD struct {
